@@ -1,1 +1,1 @@
-"# stew-tracker" 
+# stew-tracker
