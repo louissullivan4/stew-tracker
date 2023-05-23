@@ -5,7 +5,7 @@ import configdata from '../config.json';
 import './SearchBar.css'; 
 
 const SearchBar = () => {
-    const backendUrl = configdata.DEV.SERVER_URL
+    const backendUrl = configdata.SERVER_URL
     const [keyword, setKeyword] = useState("");
     const [foodList, setFoodList] = useState([]);
 
